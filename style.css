@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(images/我的個人簡介.png);
+    background-repeat: repeat;
+    background-position:center ;
+    text-indent: -9999px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+main{
+    background-color: cornflowerblue;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/個人背景.png);
+    background-position:center ;
+    width: 100%;
+    height:500px;
+    background-size: cover;
+}
+main a{
+    color: white;
+    text-decoration:none;
+    font-size:  60px;
+}
+main a:hover{
+    color: gray;
+    text-decoration:under line;
+}
